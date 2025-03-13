@@ -44,30 +44,30 @@ Response Delivery: The AI-generated response is sent back to the user.
 gamma-advisor-backend/
 │── app/
 │   │── __init__.py
-│   │── main.py                  # FastAPI entry point
-│   │── config.py                # Configuration settings
+│   │── main.py
+│   │── config.py
 │   │── routes/
 │   │   │── __init__.py
-│   │   │── chat.py              # API for chat interaction
-│   │   │── scraper.py           # API for web scraping
-│   │   │── urls.py              # API for URL management
+│   │   │── chat.py
+│   │   │── scraper.py
+│   │   │── urls.py
 │   │── services/
-│   │   │── scraper_service.py   # Handles web scraping logic
-│   │   │── retrieval.py         # Document retrieval logic
-│   │   │── llm_service.py       # Handles LLM interaction
-│   │   ├── web_scraper.py  # Web scraping logic
+│   │   │── scraper_service.py
+│   │   │── retrieval.py
+│   │   │── llm_service.py
+│   │   ├── web_scraper.py
 │   │── models/
-│   │   │── url_model.py         # Pydantic schema for URL storage
-│   │   │── chat_model.py        # Pydantic schema for chat messages
+│   │   │── url_model.py
+│   │   │── chat_model.py
 │   │── db/
-│   │   │── vector_store.py      # Handles vector storage (FAISS, ChromaDB, etc.)
-│   │   ├── database.py  # MongoDB database functions
+│   │   │── vector_store.py
+│   │   ├── database.py
 │── data/
-│   │── scraped_data.json        # Temporary scraped data store
-│── requirements.txt             # Required dependencies
-│── README.md                    # Project documentation
-│── run.py                       # Entry point for running the server
-│── .env                         # Environment variables (MongoDB URI, GROQ_API_KEY)
+│   │── scraped_data.json
+│── requirements.txt
+│── README.md
+│── run.py
+│── .env
 
 
 
