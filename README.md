@@ -95,6 +95,15 @@ venv\Scripts\activate           #Activate the Virtual Environment
 pip install -r requirements.txt
 ```
 
+# Database Installation
+Install MongoDB Database      #for URL and Scraped content Storage
+
+## Environmental Variables
+
+MONGO_URI=              #set as appropriate
+DB_NAME=
+GROQ_API_KEY=
+
 ## Usage
 ```sh
 
