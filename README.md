@@ -41,6 +41,7 @@ Response Delivery: The AI-generated response is sent back to the user.
 
 
 ## Project Structure
+```sh
 gamma-advisor-backend/
 │── app/
 │   │── __init__.py
@@ -68,7 +69,7 @@ gamma-advisor-backend/
 │── README.md
 │── run.py
 │── .env
-
+```
 
 
 
