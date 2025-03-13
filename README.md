@@ -1,7 +1,8 @@
 # RAG-Powered Stock Advisory System
 
 ## Overview
-This project is a **Retrieval-Augmented Generation (RAG)** system designed to provide financial advice on NVDA, TSLA, and GOOG stocks. The system leverages **web scraping**, **vector search**, and **LLM-based reasoning** to generate insights based on real-time financial news and discussions.
+This project is a **Retrieval-Augmented Generation (RAG)** system designed to provide stock advice on stocks such as NVDA, TSLA, and GOOG stocks. 
+The system leverages **web scraping**, **vector search**, and **LLM-based reasoning** to generate insights based on real-time financial news and discussions.
 
 ## Features
 - **Web Scraping**: Collects financial news and discussions every 6 hours.
