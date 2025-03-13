@@ -15,12 +15,12 @@ This project is a **Retrieval-Augmented Generation (RAG)** system designed to pr
   - User sentiment analysis
 
 ## Flow of a RAG-Powered Conversational Bot
-User Input: The user types a query.
-Query Preprocessing: The input is cleaned, tokenized, and converted into an embedding.
-Document Retrieval: Relevant documents are retrieved from a knowledge base (in our case, a web-scraped dataset).
-Context Fusion: The retrieved documents are combined with the original query.
-Response Generation: An LLM generates a response based on the fused context.
-Response Delivery: The AI-generated response is sent back to the user.
+- User Input: The user types a query.
+- Query Preprocessing: The input is cleaned, tokenized, and converted into an embedding.
+- Document Retrieval: Relevant documents are retrieved from a knowledge base (in our case, a web-scraped dataset).
+- Context Fusion: The retrieved documents are combined with the original query.
+- Response Generation: An LLM generates a response based on the fused context.
+- Response Delivery: The AI-generated response is sent back to the user.
 
 ## System Architecture
 1. **Data Collection**
